@@ -1,0 +1,31 @@
+{
+  "name": "polon/optimizer",
+  "description": "Optimizer makes it easy to bookmark your site tags, open graph and twitter card",
+  "keywords": [
+    "Polon",
+    "SEO",
+    "SMO",
+    "Meta Tags",
+    "Open Graph",
+    "Twitter Card",
+    "Facebook Tags"
+  ],
+  "homepage": "http://www.polon.digital",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Victor",
+      "email": "polon@polon.digital",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Polon\\Optimizer\\": "src"
+    }
+  }
+}
